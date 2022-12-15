@@ -99,3 +99,10 @@ button:hover {
     border: grey 1px solid;
     border-radius: 8px;
 }
+
+@media only screen and (max-width: 600px) {
+    .your-notes {
+        grid-template-columns: 70%;
+        grid-auto-rows: minmax(200px, auto);
+    }
+}
