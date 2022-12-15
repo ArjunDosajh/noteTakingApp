@@ -1,0 +1,101 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 0px 50px 0px;
+    background-color: lightyellow;
+    color: black;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(238, 210, 53);
+    color: black;
+    text-align: center;
+}
+
+#header-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.new-note {
+    width: 80%;
+    margin: 100px auto 20px auto;
+    border: whitesmoke 1px solid;
+    padding: 5px 20px 5px 20px;
+    background-color: lightseagreen;
+    padding: 15px 15px;
+    border-radius: 8px;
+    border: lightgrey 1px solid;
+    color: white;
+}
+
+
+
+textarea {
+    color: black;
+    background-color: white;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+#note-title-input {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(175, 175, 5);
+}
+
+.your-notes {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px 0px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-auto-rows: minmax(200px, auto);
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-content: center;
+    
+}
+
+#your-notes-title {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+#divider {
+    width: 83%;
+}
+
+.note-display {
+    background-color: #27496D;
+    /* background-color: lightseagreen; */
+    color: white;
+    padding: 0px 15px 0px 15px;
+    border: grey 1px solid;
+    border-radius: 8px;
+}
